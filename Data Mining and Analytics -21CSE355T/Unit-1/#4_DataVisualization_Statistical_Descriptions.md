@@ -769,7 +769,6 @@ Two classes same mean CGPA but one has SD=0.5 (consistent), other SD=2 (varied) 
 - Compute mean, median, mode, SD, skewness for one numeric column  
 - Sketch histogram & box plot (hand-drawn or Python)
 
-**Next Class:** Data Preprocessing in detail (Cleaning, Integration, Transformation, Reduction).
 
 **Motivation Quote:**  
 "Visualize first, model later – good EDA saves you from garbage-in-garbage-out!"  

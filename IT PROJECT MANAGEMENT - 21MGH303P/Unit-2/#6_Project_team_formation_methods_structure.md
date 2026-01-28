@@ -1,0 +1,1 @@
+In software engineering, project team formation involves defining roles (generalist, specialist, hybrid), choosing structures (hierarchical, matrix, agile squads), and establishing clear processes for communication and goals, often using methods like Agile or Waterfall to fit project needs, ensuring the right skills meet defined objectives for quality and efficiency

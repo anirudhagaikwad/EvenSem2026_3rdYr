@@ -17,6 +17,9 @@ Data preprocessing in data mining is the essential step of cleaning, transformin
 ->Ensures Accurate Results: Prevents misleading patterns and flawed business decisions
 
 **Major Tasks in Data Preprocessing**:  
+
+![Summary](../imgs/SummaryDataPreProcessing.png)
+
 ->Data Cleaning: Addresses errors, inconsistencies, and missing values (e.g., filling gaps, smoothing noisy data, removing duplicates).
 ->Data Integration: Combines data from multiple sources into a coherent store, resolving schema conflicts and redundancies
 ->Data Transformation: Converts data into suitable formats, such as normalization (scaling) or aggregation (summarizing).
@@ -27,14 +30,16 @@ Data preprocessing in data mining is the essential step of cleaning, transformin
 ## 2. Data Cleaning 
 1. Data Cleaning: It is the process of identifying and correcting errors or inconsistencies in the dataset. It involves handling missing values, removing duplicates, and correcting incorrect or outlier data to ensure the dataset is accurate and reliable. Clean data is essential for effective analysis, as it improves the quality of results and enhances the performance of data models.
 
-    **Missing Values**: This occur when data is absent from a dataset. You can either ignore the rows with missing data or fill the gaps manually, with the attribute mean, or by using the most probable value. This ensures the dataset remains accurate and complete for analysis.
+![Data Cleaning](../imgs/DataCleaning.png)
 
-    **Noisy Data**: It refers to irrelevant or incorrect data that is difficult for machines to interpret, often caused by errors in data collection or entry. It can be handled in several ways:
+   **Missing Values**: This occur when data is absent from a dataset. You can either ignore the rows with missing data or fill the gaps manually, with the attribute mean, or by using the most probable value. This ensures the dataset remains accurate and complete for analysis.
+
+   **Noisy Data**: It refers to irrelevant or incorrect data that is difficult for machines to interpret, often caused by errors in data collection or entry. It can be handled in several ways:
       ->Binning Method: The data is sorted into equal segments, and each segment is smoothed by replacing values with the mean or boundary values.
       ->Regression: Data can be smoothed by fitting it to a regression function, either linear or multiple, to predict values.
       ->Clustering: This method groups similar data points together, with outliers either being undetected or falling outside the clusters. These techniques help remove noise and improve data quality.
        
-      **Removing Duplicates**: It involves identifying and eliminating repeated data entries to ensure accuracy and consistency in the dataset. This process prevents errors and ensures reliable analysis by keeping only unique records.
+   **Removing Duplicates**: It involves identifying and eliminating repeated data entries to ensure accuracy and consistency in the dataset. This process prevents errors and ensures reliable analysis by keeping only unique records.
       
 **Key Techniques & Examples:**
 
@@ -60,7 +65,10 @@ Data preprocessing in data mining is the essential step of cleaning, transformin
 **Real-world Example:** Bank transaction data – Missing salary → Fill with mean of similar customers. Noisy age=150 → Detect as outlier & remove.
 
 ## 3. Data Integration 
+
  Data Integration: It involves merging data from various sources into a single, unified dataset. It can be challenging due to differences in data formats, structures, and meanings. Techniques like record linkage and data fusion help in combining data efficiently, ensuring consistency and accuracy.
+
+![Data Integration](../imgs/DataIntegration.png)
 
    **Record Linkage** is the process of identifying and matching records from different datasets that refer to the same entity, even if they are represented differently. It helps in combining data from various sources by finding corresponding records based on common identifiers or attributes.
 
@@ -87,6 +95,8 @@ Merge customer data from online store + physical store + CRM system.
 
 ## 4. Data Transformation 
 Data Transformation: It involves converting data into a format suitable for analysis. Common techniques include normalization, which scales data to a common range; standardization, which adjusts data to have zero mean and unit variance; and discretization, which converts continuous data into discrete categories. These techniques help prepare the data for more accurate analysis.
+
+![Data Transformation](../imgs/DataTransform.png)
 
    **Data Normalization**: The process of scaling data to a common range to ensure consistency across variables.
 
