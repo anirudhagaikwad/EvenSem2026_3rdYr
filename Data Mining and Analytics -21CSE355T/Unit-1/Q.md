@@ -100,36 +100,344 @@
 
 ## Some other Questions 
 
-**MCQ**
 
-Which of the following is a nominal attribute type?  
+# MCQs on Data Mining and Analytics  
+**(Unit 1 & Unit 2 – Based on Syllabus: 21CSE355T)**
+
+These 50 multiple-choice questions cover **Unit 1** (Data Mining Introduction & Preprocessing) and **Unit 2** (Associations and Correlations).  
+
+### Unit 1: Data Mining Introduction & Preprocessing
+
+1. Which of the following best describes data mining?  
+   A. Storing large amounts of data in a database  
+   **B.** Extracting useful patterns and knowledge from large datasets  
+   C. Deleting redundant data records  
+   D. Creating backups of data files  
+
+2. What are the main kinds of patterns discovered in data mining?  
+   **A.** Classification, clustering, association, outliers, trends  
+   B. Only classification and regression  
+   C. Only data storage and retrieval  
+   D. Only visualization patterns  
+
+3. Data objects in a dataset are also commonly referred to as:  
+   **A.** Tuples or records  
+   B. Attributes only  
+   C. Dimensions  
+   D. Classes  
+
+4. Which attribute type has meaningful differences but no true zero point?  
+   A. Nominal  
+   B. Ordinal  
+   **C.** Interval  
+   D. Ratio  
+
+5. Data visualization is primarily used to:  
+   A. Store data permanently  
+   **B.** Help users understand complex data through graphical representation  
+   C. Encrypt data  
+   D. Reduce data size  
+
+6. Which step in data preprocessing involves filling missing values or smoothing noisy data?  
+   **A.** Data cleaning  
+   B. Data integration  
+   C. Data transformation  
+   D. Data reduction  
+
+7. Merging data from multiple sources (e.g., databases) is called:  
+   A. Data cleaning  
+   **B.** Data integration  
+   C. Data discretization  
+   D. Data sampling  
+
+8. Normalization and aggregation are examples of:  
+   A. Data cleaning  
+   B. Data integration  
+   **C.** Data transformation  
+   D. Attribute subset selection  
+
+9. Dividing continuous data into bins or intervals is known as:  
+   A. Data integration  
+   **B.** Data discretization  
+   C. Data cleaning  
+   D. Sampling  
+
+10. Which data reduction technique removes irrelevant or redundant attributes?  
+    **A.** Attribute subset selection  
+    B. Clustering  
+    C. Sampling  
+    D. Histogram  
+
+11. Histograms are used in data reduction primarily for:  
+    A. Attribute selection  
+    **B.** Data summarization and discretization  
+    C. Data integration  
+    D. Outlier detection  
+
+12. Using clustering for data reduction involves:  
+    A. Replacing data with cluster representatives  
+    B. Removing all clusters  
+    **C.** Representing data points by their cluster centroids  
+    D. Increasing data size  
+
+13. Random sampling is a technique used for:  
+    A. Data cleaning  
+    B. Data integration  
+    **C.** Data reduction  
+    D. Data visualization  
+
+14. Which of the following is NOT a data preprocessing step?  
+    A. Data cleaning  
+    B. Data transformation  
+    **C.** Model training  
+    D. Data discretization  
+
+15. What is the purpose of data discretization in preprocessing?  
+    A. To increase data size  
+    **B.** To convert continuous attributes into categorical ones  
+    C. To merge databases  
+    D. To visualize data  
+
+16. Which attribute type has order but no fixed differences (e.g., rankings)?  
+    A. Nominal  
+    **B.** Ordinal  
+    C. Interval  
+    D. Ratio  
+
+17. Data objects with many attributes are often called:  
+    A. Low-dimensional  
+    **B.** High-dimensional  
+    C. Single-dimensional  
+    D. Zero-dimensional  
+
+18. Which of the following is a kind of data?  
+    **A.** Transactional data  
+    B. Only structured data  
+    C. Only text data  
+    D. Only image data  
+
+19. In data preprocessing, handling inconsistent data falls under:  
+    **A.** Data cleaning  
+    B. Data reduction  
+    C. Data visualization  
+    D. Data integration  
+
+20. Sampling can be used to:  
+    **A.** Reduce the dataset size while preserving patterns  
+    B. Increase dataset size  
+    C. Encrypt data  
+    D. Change attribute types  
+
+21. Which technique selects a subset of attributes to reduce dimensionality?  
+    **A.** Attribute subset selection  
+    B. Data integration  
+    C. Data transformation  
+    D. Clustering  
+
+22. What is the main goal of data preprocessing before mining?  
+    **A.** Improve data quality for accurate pattern discovery  
+    B. Delete all data  
+    C. Visualize only  
+    D. Store data  
+
+23. Ratio-scaled attributes have:  
+    A. No true zero  
+    **B.** A true zero point and meaningful ratios  
+    C. Only order  
+    D. Only categories  
+
+24. Which is NOT a data reduction method mentioned in the syllabus?  
+    A. Histograms  
+    B. Clustering  
+    C. Sampling  
+    **D.** Encryption  
+
+25. Data visualization techniques include:  
+    **A.** Scatter plots, histograms, box plots  
+    B. Only tables  
+    C. Only text summaries  
+    D. Only databases  
+
+### Unit 2: Associations and Correlations
+
+26. Market basket analysis is commonly used for:  
+    **A.** Finding frequent itemsets in transaction data  
+    B. Classification  
+    C. Clustering  
+    D. Outlier detection  
+
+27. The Apriori algorithm is used to:  
+    **A.** Generate frequent itemsets using candidate generation  
+    B. Avoid candidate generation  
+    C. Only compute correlation  
+    D. Cluster data  
+
+28. In association rules, support of an itemset is:  
+    **A.** The proportion of transactions containing the itemset  
+    B. The confidence level  
+    C. The lift value  
+    D. The correlation coefficient  
+
+29. Which algorithm mines frequent itemsets without candidate generation?  
+    A. Apriori  
+    **B.** FP-growth (Mining Frequent Itemsets without Candidate Generation)  
+    C. Vertical data format method  
+    D. Constraint-based mining  
+
+30. The vertical data format represents:  
+    **A.** Items with lists of transaction IDs (tidlists)  
+    B. Transactions with items  
+    C. Only horizontal tables  
+    D. Only candidate sets  
+
+31. Closed frequent itemsets are:  
+    **A.** Frequent itemsets with no proper superset having the same support  
+    B. All frequent itemsets  
+    C. Maximal itemsets only  
+    D. Minimal itemsets  
+
+32. Mining multilevel association rules involves:  
+    **A.** Using item taxonomies or hierarchies  
+    B. Only single-level items  
+    C. Only binary attributes  
+    D. Only quantitative data  
+
+33. Multidimensional association rules involve:  
+    **A.** Rules across multiple dimensions (e.g., age, income, purchase)  
+    B. Only one dimension  
+    C. Only transactional data  
+    D. Only categorical data  
+
+34. Correlation analysis in association rules uses measures like:  
+    A. Only support  
+    **B.** Lift, chi-square, all-confidence  
+    C. Only confidence  
+    D. Only conviction  
+
+35. Constraint-based association mining allows:  
+    **A.** User-specified constraints on rules (e.g., items, min support)  
+    B. No constraints  
+    C. Only automatic rules  
+    D. Only random mining  
+
+36. The main drawback of the Apriori algorithm is:  
+    **A.** Large number of candidate itemsets  
+    B. No candidate generation  
+    C. Vertical format only  
+    D. Multilevel only  
+
+37. FP-growth uses:  
+    **A.** FP-tree (frequent pattern tree)  
+    B. Candidate pruning  
+    C. Only vertical format  
+    D. Only correlation  
+
+38. Mining frequent itemsets using vertical data format is efficient for:  
+    **A.** Intersection-based support counting  
+    B. Horizontal scanning  
+    C. Candidate generation  
+    D. Clustering  
+
+39. In market basket analysis, a rule like {bread} → {butter} has high:  
+    **A.** Support and confidence  
+    B. Only lift  
+    C. Only correlation  
+    D. No meaning  
+
+40. Lift > 1 in correlation analysis indicates:  
+    **A.** Positive correlation (items occur together more than expected)  
+    B. Negative correlation  
+    C. No correlation  
+    D. Independence  
+
+41. Which is NOT a technique in Unit 2?  
+    A. Apriori  
+    B. FP-growth  
+    **C.** Decision tree induction  
+    D. Constraint-based mining  
+
+42. Mining closed frequent itemsets helps in:  
+    **A.** Reducing redundancy in frequent itemsets  
+    B. Increasing itemsets  
+    C. Clustering  
+    D. Classification  
+
+43. Multilevel association rules are useful when items have:  
+    **A.** Hierarchical relationships (e.g., milk → dairy → food)  
+    B. No hierarchy  
+    C. Only flat structure  
+    D. Only numerical values  
+
+44. In constraint-based mining, a rule can be constrained by:  
+    **A.** Item names, min support, min confidence, etc.  
+    B. Only random constraints  
+    C. No constraints  
+    D. Only maximum length  
+
+45. The Apriori property states that:  
+    **A.** All subsets of a frequent itemset are frequent  
+    B. All supersets are frequent  
+    C. Only maximal sets are frequent  
+    D. Only closed sets  
+
+46. Vertical data format is also known as:  
+    **A.** Item-TID list format  
+    B. Transaction-item format  
+    C. Horizontal format  
+    D. Matrix format  
+
+47. Correlation analysis helps to:  
+    **A.** Find if items are statistically independent or correlated  
+    B. Only find frequent items  
+    C. Cluster data  
+    D. Classify data  
+
+48. Which method does NOT require candidate generation?  
+    **A.** Mining Frequent Itemsets without Candidate Generation (FP-growth)  
+    B. Apriori  
+    C. Vertical data format (partial)  
+    D. Multilevel  
+
+49. In association rules, confidence measures:  
+    **A.** Strength of implication (P(Y|X))  
+    B. Frequency of itemset  
+    C. Correlation only  
+    D. Lift only  
+
+50. Constraint-based association mining is useful for:  
+    **A.** Guiding the search to interesting rules only  
+    B. Generating all possible rules  
+    C. Ignoring user input  
+    D. Only multilevel rules  
+
+51. Which of the following is a nominal attribute type?  
    a) Age b) Temperature c) Gender d) Salary 
 
-Data visualization is primarily used to:  
+52. Data visualization is primarily used to:  
    a) Clean data b) Discover patterns c) Reduce dimensions d) Transform values 
 
-Which step in data preprocessing handles missing values?  
+53. Which step in data preprocessing handles missing values?  
    a) Data integration b) Data cleaning c) Data discretization d) Sampling 
 
-Histogram is a technique used in:  
+54. Histogram is a technique used in:  
    a) Data cleaning b) Data reduction c) Data transformation d) Attribute selection  
 
-Clustering for data reduction belongs to:  
+55. Clustering for data reduction belongs to:  
    a) Numerosity reduction b) Dimensionality reduction c) Data integration d) Discretization
 
-In market basket analysis, support of an itemset is defined as:  
+56. In market basket analysis, support of an itemset is defined as:  
    a) Confidence / Lift b) Frequency of occurrence / Total transactions c) Probability of co-occurrence d) Correlation coefficient
 
-The Apriori algorithm uses which property to prune candidates?  
+57. The Apriori algorithm uses which property to prune candidates?  
    a) Downward closure b) Upward closure c) Monotonicity d) Apriori property
 
-FP-growth algorithm avoids:  
+58. FP-growth algorithm avoids:  
    a) Candidate generation b) Support counting c) Tree construction d) Pattern mining
 
-Correlation analysis in association mining is used to:  
+59. Correlation analysis in association mining is used to:  
    a) Find frequent itemsets b) Identify interesting rules c) Generate candidates d) Prune rules 
 
-Multidimensional association rules involve:  
+60. Multidimensional association rules involve:  
     a) Single dimension b) Multiple dimensions c) Binary attributes only d) Transactional data only 
 
 
