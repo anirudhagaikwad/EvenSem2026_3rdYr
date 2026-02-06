@@ -57,7 +57,7 @@ During the planning phase, resource allocation helps you understand which team m
 
 # Tools to Help with Resource Management in Jira
 
-Modern project management tools like **Jira** significantly improve **resource management** by offering better visibility, allocation, planning, and tracking. Native Jira features are limited for advanced resource needs, so **Atlassian Marketplace apps** extend capabilities for planning, workload balancing, capacity forecasting, and utilization tracking.
+Modern project management tools like **Jira** significantly improve **resource management** by offering better visibility, allocation, planning, and tracking. Native Jira features are limited for advanced resource needs,  extend capabilities for planning, workload balancing, capacity forecasting, and utilization tracking.
 
 ## Why Switch to Jira + Marketplace Apps for Resource Management?
 
@@ -110,14 +110,3 @@ These complement pure resource tools when financial oversight is needed.
 | ProScheduler         | Multi-project Gantt & scheduling     | Powerful    | Partial                | Good                      | Partial (via add-ons)    | Visual planning & constraint solving   |
 | Tempo Capacity       | Capacity + financials                | Roadmap     | Yes                    | Strong                    | Strong                   | Agile teams with budget tracking       |
 
-## Tips for Effective Resource Management in Jira
-
-- Start with **ActivityTimeline** if your main pain point is individual/team overload and skill matching.
-- Choose **ProScheduler** for Gantt-heavy, multi-project visibility and quick what-if planning.
-- Combine apps (e.g., ActivityTimeline + Tempo) for full resource + cost visibility.
-- Regularly review utilization reports to avoid burnout and optimize allocation.
-- Use Jira's native boards + these apps for seamless, real-time updates.
-
-→ Installing from Atlassian Marketplace is straightforward: search → install → configure permissions → start planning.
-
-These tools help teams move from reactive firefighting to proactive, data-driven resource decisions.
