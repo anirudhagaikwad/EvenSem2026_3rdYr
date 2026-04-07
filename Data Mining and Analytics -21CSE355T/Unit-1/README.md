@@ -123,4 +123,3 @@ Raw data is noisy, incomplete, inconsistent, has missing values â†’ Garbage In â
 - Explain each reduction technique with example + diagram (especially histogram binning & sampling)  
 - Difference between Data Cleaning vs Transformation vs Reduction  
 - Normalization methods with formula + example
-

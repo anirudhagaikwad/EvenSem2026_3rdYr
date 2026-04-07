@@ -218,4 +218,4 @@ Nominal < Ordinal < Interval < Ratio
 - Submit next class.
 
 **Motivation Quote:**  
-"Know your data before you mine it – attribute types are the DNA of your dataset!"  
+"Know your data before you mine it – attribute types are the DNA of your dataset!"

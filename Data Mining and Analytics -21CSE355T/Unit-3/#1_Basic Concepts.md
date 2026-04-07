@@ -138,7 +138,3 @@ Here is the criteria for comparing the methods of Classification and Prediction 
 ➜ Robustness − It refers to the ability of classifier or predictor to make correct predictions from given noisy data.
 ➜ Scalability − Scalability refers to the ability to construct the classifier or predictor efficiently; given large amount of data.
 ➜ Interpretability − It refers to what extent the classifier or predictor understands.
-
-
-
-
